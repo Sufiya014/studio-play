@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 200px; 
+    background-image: url('bg2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:rgb(8, 7, 7);
+    img{
+        display: block;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+  
+  nav ul li{
+    margin:1rem;
+  }  
+  
+  
+  button {
+    background: linear-gradient(135deg, #ff00d8, #ae00ff);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  hero{
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
